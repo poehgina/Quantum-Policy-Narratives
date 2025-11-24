@@ -47,4 +47,6 @@ Output files include:
 
 
 🛠️ Dependencies
-- Detailed description and information about BERT can be found here maartengr.github.io/BERTopic/ 
+- Detailed description and information about BERT can be found here maartengr.github.io/BERTopic/
+- https://doi.org/10.5281/zenodo.17695985 link to Zenodo
+
