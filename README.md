@@ -5,19 +5,19 @@ The workflow covers:
 - Generating document embeddings with SentenceTransformers
 - Applying dimensionality reduction (UMAP) and clustering (HDBSCAN)
 - Extracting interpretable topics with BERTopic
-- Iteratively merging and refining topics to reach a stable set of ~64 topics
+- Iteratively merging and refining topics to reach a set of ~64 topics
 - Analyzing how topics vary across countries and over time
-- Exporting results for further qualitative and quantitative assessment
+- Exporting results for further qualitative and quantitative assessment of narratives
 
 ⚙️ Main Features
 - Reproducible BERTopic Pipeline
-- Prepares embeddings, reduces dimensions, clusters documents, and extracts topics.
+- Prepares embeddings, reduces dimensions, clusters documents, and extracts topics
 - Custom Vectorization & Stopword Handling
-- Uses a custom CountVectorizer subclass for flexible n-grams (1–3).
+- Uses a custom CountVectorizer subclass for flexible n-grams (1–3)
 - Parameter Tuning with TopicModelTuner
-- Supports systematic search over HDBSCAN parameters for robust clustering.
+- Supports systematic search over HDBSCAN parameters for robust clustering
 - Topic Refinement & Merging
-- Iteratively merges semantically similar clusters to produce interpretable topics.
+- Iteratively merges semantically similar clusters to produce interpretable topics
 - Cross-Country & Temporal Analysis
 - Topics per country (absolute and relative frequencies)
 - Topics over time (yearly trends in national quantum strategies)
@@ -27,7 +27,7 @@ The workflow covers:
 
 📂 Repository Structure
 - dataframe_policy.csv – Input dataset (policy documents, metadata)
-- Main script – End-to-end analysis with BERTopic
+- Main script – analysis with BERTopic
 - Data loading & descriptives
 - Embedding + clustering + topic extraction
 - Topic merging & labeling
